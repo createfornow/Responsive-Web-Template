@@ -1,0 +1,258 @@
+
+#header{
+   background-color:#833471;
+   color: white;
+   font-size: 1.2rem;
+   
+}
+.navbar-toggler-icon{
+   background-color: #833471;
+   /* color: white!important; */
+}
+.navbar-toggler{
+   color: white;
+   background: black;
+}
+.navbar-toggler:hover{
+   background: white;
+}
+.navbar-nav{
+   color: white;
+   margin-left: 3rem;
+   list-style: none;
+   /* display:flex; */
+}
+.navbar-nav li{
+color: white;
+margin-right:28px;
+  margin ;
+  
+}
+.nav-link{
+   text-decoration: none;
+   color: white!important;
+   padding: 8px 28px;
+  /* padding-top: 2rem; */
+}
+.navbar-nav li a:hover{
+   color: white;
+   background: #6F1E51;
+}
+.dropdown-menu{
+  
+   background:#833471 ;
+}
+.dropdown-menu a{
+   color: white;
+   /* font-weight: bold; */
+}
+
+#header img{
+   height:4rem;
+}
+
+
+
+
+
+#banner{
+  
+   background:url(/z.jpg) no-repeat 0 0;
+   background-size: cover;
+   height: 32rem;
+}
+
+.btn{
+   border: 4px solid #833471 ;
+   border-radius: 4px;
+   
+   color: #833471;
+   text-decoration: none;
+   padding: 6px 45px;
+   margin-bottom: 1.5rem;
+   font-size: 1.8rem;
+   font-weight: bold;
+   display: inline-block;
+   position: relative;
+   /* transition: all 0.8s ease 0s; */
+}
+.btn::after{
+   background: #833471;
+   content: "";
+   position:absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   z-index: -1;
+   transition: all 0.8s ease 0s;
+   
+
+}
+.btn:hover{
+     
+   color: white;
+   z-index: 1;
+}
+
+.btn:hover:after{
+   
+   width: 100%;
+   
+}
+
+#banner input{
+   border: 4px solid #833471;
+   width: 20rem;
+   height: 2.5rem;
+   border-radius: 18px;
+   
+   text-align: center;
+}
+
+#banner i{
+   margin-top: 1rem;
+   color: #833471;
+   padding-left: 1rem;
+   font-size: 2rem;
+}
+.title{
+  
+   padding-top:4rem ;
+   color: white;
+}
+.title p{
+   
+   background: rgb(131, 52, 113, 0.4);
+   padding: 1.5rem;
+}
+
+
+.section  {
+   text-align: center;
+   margin-left: 5rem;
+   margin: 2rem 2rem;
+}
+.section h2::after{
+   background:#833471 ;
+   content: "";
+   display:block;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto;
+
+}
+
+.section i{
+   color:#833471 ;
+   font-size:3rem ;
+   
+   margin:1.5rem ;
+
+}
+
+#test{
+   background: url(/a.jpg) no-repeat 0 0;
+   background-size: cover;
+   height: 100%;
+   color: white;
+   position: relative;
+}
+/* #test:before{
+   background: rgb(122, 122, 122, 0.8);
+   content: "";
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+} */
+#test img{
+   height:10rem;
+   width: 10rem;
+   margin-top:1.4rem;
+   margin-bottom: 1rem;
+}
+#test h2{
+   padding-top: 1.4rem;
+}
+#test p{
+   padding:1rem ;
+   background: rgb(131, 52, 113, 0.5);
+}
+
+
+
+#news img{
+   width:14rem;
+   height: 10rem;
+   margin-top: 2rem;
+   margin-bottom: 0.7rem;
+   
+
+}
+
+#news p{
+   /* background: rgb(131, 52, 113, 0.8); */
+   /* padding :0.6rem; */
+   font-size: 20px;
+   
+   color:#833471;
+}
+a.read{
+   text-decoration: none;
+   color: red;
+   
+   
+
+}
+a.read::after{
+   content: "";
+   font-family: "Font Awesome 5 Brands";
+
+}
+#news i{
+   font-size: 20px;
+}
+
+
+#foot.row{
+   margin: 10rem;
+}
+#foot{
+   background:url(/c.jpg) no-repeat 0 0;
+   background-size: cover;
+   height: 100%;
+   color: white;
+   font-size: 1rem;
+}
+.logos{
+   display: inline;
+   
+}
+
+#foot img{
+   height: 2rem;
+   width: 2rem;
+   padding-bottom: 0.5rem;
+   
+}
+#foot img:hover{
+   transform: scale(1.2);
+}
+.cont{
+  
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+.logos p{
+   padding: 1.5rem;
+}
+
+
+.last{
+   padding: 5px;
+   margin-top: -2rem;
+   font-size: 1.2rem;
+   text-align: center;
+   background: rgb(131, 52, 113, 0.7); ;
+}
